@@ -682,3 +682,151 @@ body.adt-reader-shell > main.adt-reader-main {
   }
 
 }
+
+/* Printed chapter pages use the source PDF as a responsive visual canvas.
+   The complete semantic HTML remains in the page, transparent and available
+   to the ADT read-aloud runtime, so every existing text/audio ID is preserved. */
+#content.adt-book-page:is(
+  [data-source-page="pg007"], [data-source-page="pg008"],
+  [data-source-page="pg009"], [data-source-page="pg010"],
+  [data-source-page="pg011"], [data-source-page="pg012"],
+  [data-source-page="pg013"], [data-source-page="pg014"],
+  [data-source-page="pg015"], [data-source-page="pg016"],
+  [data-source-page="pg017"], [data-source-page="pg018"],
+  [data-source-page="pg019"], [data-source-page="pg020"],
+  [data-source-page="pg021"], [data-source-page="pg022"],
+  [data-source-page="pg023"], [data-source-page="pg024"],
+  [data-source-page="pg025"], [data-source-page="pg026"],
+  [data-source-page="pg027"], [data-source-page="pg028"],
+  [data-source-page="pg029"], [data-source-page="pg030"],
+  [data-source-page="pg031"], [data-source-page="pg032"],
+  [data-source-page="pg033"], [data-source-page="pg034"],
+  [data-source-page="pg035"], [data-source-page="pg036"],
+  [data-source-page="pg037"], [data-source-page="pg038"],
+  [data-source-page="pg039"], [data-source-page="pg040"],
+  [data-source-page="pg041"], [data-source-page="pg042"],
+  [data-source-page="pg043"], [data-source-page="pg044"],
+  [data-source-page="pg045"], [data-source-page="pg046"],
+  [data-source-page="pg047"], [data-source-page="pg048"]
+) {
+  aspect-ratio: 516 / 726;
+  min-height: 0;
+  border-radius: 0.35rem;
+  background: #fff;
+}
+
+#content.adt-book-page:is(
+  [data-source-page="pg007"], [data-source-page="pg008"],
+  [data-source-page="pg009"], [data-source-page="pg010"],
+  [data-source-page="pg011"], [data-source-page="pg012"],
+  [data-source-page="pg013"], [data-source-page="pg014"],
+  [data-source-page="pg015"], [data-source-page="pg016"],
+  [data-source-page="pg017"], [data-source-page="pg018"],
+  [data-source-page="pg019"], [data-source-page="pg020"],
+  [data-source-page="pg021"], [data-source-page="pg022"],
+  [data-source-page="pg023"], [data-source-page="pg024"],
+  [data-source-page="pg025"], [data-source-page="pg026"],
+  [data-source-page="pg027"], [data-source-page="pg028"],
+  [data-source-page="pg029"], [data-source-page="pg030"],
+  [data-source-page="pg031"], [data-source-page="pg032"],
+  [data-source-page="pg033"], [data-source-page="pg034"],
+  [data-source-page="pg035"], [data-source-page="pg036"],
+  [data-source-page="pg037"], [data-source-page="pg038"],
+  [data-source-page="pg039"], [data-source-page="pg040"],
+  [data-source-page="pg041"], [data-source-page="pg042"],
+  [data-source-page="pg043"], [data-source-page="pg044"],
+  [data-source-page="pg045"], [data-source-page="pg046"],
+  [data-source-page="pg047"], [data-source-page="pg048"]
+)::before {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+}
+
+#content.adt-book-page:is(
+  [data-source-page="pg007"], [data-source-page="pg008"],
+  [data-source-page="pg009"], [data-source-page="pg010"],
+  [data-source-page="pg011"], [data-source-page="pg012"],
+  [data-source-page="pg013"], [data-source-page="pg014"],
+  [data-source-page="pg015"], [data-source-page="pg016"],
+  [data-source-page="pg017"], [data-source-page="pg018"],
+  [data-source-page="pg019"], [data-source-page="pg020"],
+  [data-source-page="pg021"], [data-source-page="pg022"],
+  [data-source-page="pg023"], [data-source-page="pg024"],
+  [data-source-page="pg025"], [data-source-page="pg026"],
+  [data-source-page="pg027"], [data-source-page="pg028"],
+  [data-source-page="pg029"], [data-source-page="pg030"],
+  [data-source-page="pg031"], [data-source-page="pg032"],
+  [data-source-page="pg033"], [data-source-page="pg034"],
+  [data-source-page="pg035"], [data-source-page="pg036"],
+  [data-source-page="pg037"], [data-source-page="pg038"],
+  [data-source-page="pg039"], [data-source-page="pg040"],
+  [data-source-page="pg041"], [data-source-page="pg042"],
+  [data-source-page="pg043"], [data-source-page="pg044"],
+  [data-source-page="pg045"], [data-source-page="pg046"],
+  [data-source-page="pg047"], [data-source-page="pg048"]
+) > .adt-book-page__body {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#content[data-source-page="pg007"]::before { background-image: url("../images/page-renders/pg007.png"); }
+#content[data-source-page="pg008"]::before { background-image: url("../images/page-renders/pg008.png"); }
+#content[data-source-page="pg009"]::before { background-image: url("../images/page-renders/pg009.png"); }
+#content[data-source-page="pg010"]::before { background-image: url("../images/page-renders/pg010.png"); }
+#content[data-source-page="pg011"]::before { background-image: url("../images/page-renders/pg011.png"); }
+#content[data-source-page="pg012"]::before { background-image: url("../images/page-renders/pg012.png"); }
+#content[data-source-page="pg013"]::before { background-image: url("../images/page-renders/pg013.png"); }
+#content[data-source-page="pg014"]::before { background-image: url("../images/page-renders/pg014.png"); }
+#content[data-source-page="pg015"]::before { background-image: url("../images/page-renders/pg015.png"); }
+#content[data-source-page="pg016"]::before { background-image: url("../images/page-renders/pg016.png"); }
+#content[data-source-page="pg017"]::before { background-image: url("../images/page-renders/pg017.png"); }
+#content[data-source-page="pg018"]::before { background-image: url("../images/page-renders/pg018.png"); }
+#content[data-source-page="pg019"]::before { background-image: url("../images/page-renders/pg019.png"); }
+#content[data-source-page="pg020"]::before { background-image: url("../images/page-renders/pg020.png"); }
+#content[data-source-page="pg021"]::before { background-image: url("../images/page-renders/pg021.png"); }
+#content[data-source-page="pg022"]::before { background-image: url("../images/page-renders/pg022.png"); }
+#content[data-source-page="pg023"]::before { background-image: url("../images/page-renders/pg023.png"); }
+#content[data-source-page="pg024"]::before { background-image: url("../images/page-renders/pg024.png"); }
+#content[data-source-page="pg025"]::before { background-image: url("../images/page-renders/pg025.png"); }
+#content[data-source-page="pg026"]::before { background-image: url("../images/page-renders/pg026.png"); }
+#content[data-source-page="pg027"]::before { background-image: url("../images/page-renders/pg027.png"); }
+#content[data-source-page="pg028"]::before { background-image: url("../images/page-renders/pg028.png"); }
+#content[data-source-page="pg029"]::before { background-image: url("../images/page-renders/pg029.png"); }
+#content[data-source-page="pg030"]::before { background-image: url("../images/page-renders/pg030.png"); }
+#content[data-source-page="pg031"]::before { background-image: url("../images/page-renders/pg031.png"); }
+#content[data-source-page="pg032"]::before { background-image: url("../images/page-renders/pg032.png"); }
+#content[data-source-page="pg033"]::before { background-image: url("../images/page-renders/pg033.png"); }
+#content[data-source-page="pg034"]::before { background-image: url("../images/page-renders/pg034.png"); }
+#content[data-source-page="pg035"]::before { background-image: url("../images/page-renders/pg035.png"); }
+#content[data-source-page="pg036"]::before { background-image: url("../images/page-renders/pg036.png"); }
+#content[data-source-page="pg037"]::before { background-image: url("../images/page-renders/pg037.png"); }
+#content[data-source-page="pg038"]::before { background-image: url("../images/page-renders/pg038.png"); }
+#content[data-source-page="pg039"]::before { background-image: url("../images/page-renders/pg039.png"); }
+#content[data-source-page="pg040"]::before { background-image: url("../images/page-renders/pg040.png"); }
+#content[data-source-page="pg041"]::before { background-image: url("../images/page-renders/pg041.png"); }
+#content[data-source-page="pg042"]::before { background-image: url("../images/page-renders/pg042.png"); }
+#content[data-source-page="pg043"]::before { background-image: url("../images/page-renders/pg043.png"); }
+#content[data-source-page="pg044"]::before { background-image: url("../images/page-renders/pg044.png"); }
+#content[data-source-page="pg045"]::before { background-image: url("../images/page-renders/pg045.png"); }
+#content[data-source-page="pg046"]::before { background-image: url("../images/page-renders/pg046.png"); }
+#content[data-source-page="pg047"]::before { background-image: url("../images/page-renders/pg047.png"); }
+#content[data-source-page="pg048"]::before { background-image: url("../images/page-renders/pg048.png"); }
