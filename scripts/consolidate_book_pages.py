@@ -125,7 +125,7 @@ if len(pages) == 48:
             raise ValueError(f"Expected one book body in {page_path.name}")
         organize_columns(book_bodies[0], current_prefix)
         for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-            link.set("href", "./content/book-fidelity.css?v=19")
+            link.set("href", "./content/book-fidelity.css?v=20")
         if not document.xpath('//script[contains(@src, "book-layout.js")]'):
             layout_script = html.Element("script")
             layout_script.set("src", "./assets/book-layout.js?v=1")
@@ -225,18 +225,6 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         reference = html.Element("div")
         reference.set("class", "adt-print-page-reference")
 
-        label = html.Element("span")
-        label.set("class", "adt-print-page-reference__label")
-        label.set("aria-hidden", "true")
-        label.text = "Book page"
-        reference.append(label)
-
-        number = html.Element("span")
-        number.set("class", "adt-print-page-reference__number")
-        number.set("aria-hidden", "true")
-        number.text = str(canonical["page_number"])
-        reference.append(number)
-
         speech = html.Element("span")
         speech.set("class", "adt-speech-only")
         page_number_id = f"{prefix}_page_number"
@@ -248,7 +236,7 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         main.addnext(reference)
 
     for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-        link.set("href", "./content/book-fidelity.css?v=19")
+        link.set("href", "./content/book-fidelity.css?v=20")
     for script in document.xpath('//script[contains(@src, "offline-preloader.js")]'):
         script.set("src", "./assets/offline-preloader.js?v=3")
     if not document.xpath('//script[contains(@src, "book-layout.js")]'):

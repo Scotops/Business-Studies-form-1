@@ -241,8 +241,8 @@ body.adt-reader-shell > main.adt-reader-main {
   height: auto;
 }
 
-/* Keep printed page-number badges, but remove the decorative line and wave
-   artwork that previously ran behind them at the bottom of book pages. */
+/* Keep the printed page numbers inside the book layout, but remove the
+   decorative line and wave artwork that ran behind them. */
 .adt-book-page [class*="repeating-linear-gradient"],
 .adt-book-page [style*="repeating-linear-gradient"] {
   background-image: none !important;
@@ -269,38 +269,15 @@ body.adt-reader-shell > main.adt-reader-main {
 }
 
 .adt-print-page-reference {
-  position: fixed;
-  right: 1rem;
-  bottom: 4.5rem;
-  z-index: 55;
-  display: inline-flex;
-  align-items: center;
-  overflow: hidden;
-  border: 1px solid rgba(34, 197, 94, 0.45);
-  border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.18);
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1;
-}
-
-.adt-print-page-reference__label {
-  padding: 0.55rem 0.7rem 0.55rem 0.85rem;
-  color: #166534;
-  font-size: 0.8rem;
-  font-style: italic;
-  white-space: nowrap;
-}
-
-.adt-print-page-reference__number {
-  min-width: 2.6rem;
-  padding: 0.58rem 0.7rem;
-  border-radius: 9999px;
-  background: #f97316;
-  color: white;
-  font-size: 0.95rem;
-  font-weight: 700;
-  text-align: center;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 .adt-speech-only {
@@ -395,19 +372,4 @@ body.adt-reader-shell > main.adt-reader-main {
     right: -14px;
   }
 
-  .adt-print-page-reference {
-    right: 0.55rem;
-    bottom: 4.15rem;
-  }
-
-  .adt-print-page-reference__label {
-    padding: 0.45rem 0.55rem 0.45rem 0.7rem;
-    font-size: 0.68rem;
-  }
-
-  .adt-print-page-reference__number {
-    min-width: 2.2rem;
-    padding: 0.48rem 0.55rem;
-    font-size: 0.8rem;
-  }
 }
