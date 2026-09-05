@@ -139,7 +139,7 @@ if len(pages) == 48:
             raise ValueError(f"Expected one book body in {page_path.name}")
         organize_columns(book_bodies[0], current_prefix)
         for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-            link.set("href", "./content/book-fidelity.css?v=24")
+            link.set("href", "./content/book-fidelity.css?v=25")
         if not document.xpath('//script[contains(@src, "book-layout.js")]'):
             layout_script = html.Element("script")
             layout_script.set("src", "./assets/book-layout.js?v=1")
@@ -149,10 +149,10 @@ if len(pages) == 48:
             else:
                 body.append(layout_script)
         for script in document.xpath('//script[contains(@src, "word-highlight-overlay.js")]'):
-            script.set("src", "./assets/word-highlight-overlay.js?v=2")
+            script.set("src", "./assets/word-highlight-overlay.js?v=3")
         if not document.xpath('//script[contains(@src, "word-highlight-overlay.js")]'):
             highlight_script = html.Element("script")
-            highlight_script.set("src", "./assets/word-highlight-overlay.js?v=2")
+            highlight_script.set("src", "./assets/word-highlight-overlay.js?v=3")
             body.append(highlight_script)
         rendered = etree.tostring(
             document,
@@ -257,7 +257,7 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         main.addnext(reference)
 
     for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-        link.set("href", "./content/book-fidelity.css?v=24")
+        link.set("href", "./content/book-fidelity.css?v=25")
     for script in document.xpath('//script[contains(@src, "offline-preloader.js")]'):
         script.set("src", "./assets/offline-preloader.js?v=3")
     if not document.xpath('//script[contains(@src, "book-layout.js")]'):
@@ -269,10 +269,10 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         else:
             body.append(layout_script)
     for script in document.xpath('//script[contains(@src, "word-highlight-overlay.js")]'):
-        script.set("src", "./assets/word-highlight-overlay.js?v=2")
+        script.set("src", "./assets/word-highlight-overlay.js?v=3")
     if not document.xpath('//script[contains(@src, "word-highlight-overlay.js")]'):
         highlight_script = html.Element("script")
-        highlight_script.set("src", "./assets/word-highlight-overlay.js?v=2")
+        highlight_script.set("src", "./assets/word-highlight-overlay.js?v=3")
         body.append(highlight_script)
 
     rendered = etree.tostring(
