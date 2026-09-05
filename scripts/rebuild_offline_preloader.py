@@ -37,5 +37,5 @@ for key, old_value in old_payload.items():
 
 encoded = json.dumps(new_payload, ensure_ascii=False, separators=(",", ":"))
 rebuilt = source[: match.start(1)] + encoded + source[match.end(1) :]
-PRELOADER_PATH.write_text(rebuilt, encoding="utf-8")
+PRELOADER_PATH.write_text(rebuilt, encoding="utf-8", newline="\n")
 print(f"Rebuilt {PRELOADER_PATH.name} from {len(new_payload)} current source files")

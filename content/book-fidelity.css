@@ -178,6 +178,13 @@ body.adt-reader-shell > main.adt-reader-main {
   margin-left: auto !important;
 }
 
+/* Page ii uses an anchored ornamental footer. Preserve its source-page canvas so
+   the wave and printed page number remain below, rather than across, the legal
+   notice. Other consolidated pages continue to size to their flowed content. */
+.adt-book-page[data-source-page="pg002"] .adt-source-fragment > section {
+  min-height: 86rem !important;
+}
+
 .adt-book-page p:not(.text-center):not(.text-right),
 .adt-book-page li {
   text-align: justify !important;
@@ -301,6 +308,10 @@ body.adt-reader-shell > main.adt-reader-main {
   .adt-book-page[data-fragment-count] .adt-source-fragment {
     --adt-fragment-scale: 1;
     width: 100%;
+  }
+
+  .adt-book-page[data-source-page="pg002"] .adt-source-fragment > section {
+    min-height: 67.5rem !important;
   }
 
   .adt-activity-icon--pg019 {
