@@ -21,6 +21,7 @@ COLUMN_SPLITS = {
     "pg010": 2,
     "pg016": 3,
 }
+RUNNING_HEADER_TEXT = "Business Studies for Secondary Schools"
 
 
 def page_prefix(section_id: str) -> str:
@@ -39,6 +40,18 @@ def set_query_version(value: str | None, version: int) -> str | None:
     if not value:
         return value
     return re.sub(r"\?v=\d+$", f"?v={version}", value)
+
+
+def remove_running_headers(content: etree._Element) -> None:
+    """Remove the repeated print header from display and read-aloud order."""
+    for element in content.xpath('.//*[@data-id]'):
+        inline_text = " ".join("".join(element.itertext()).split())
+        translated_text = " ".join(texts.get(element.get("data-id"), "").split())
+        if RUNNING_HEADER_TEXT not in {inline_text, translated_text}:
+            continue
+        parent = element.getparent()
+        if parent is not None:
+            parent.remove(element)
 
 
 def organize_columns(book_body: etree._Element, prefix: str) -> None:
@@ -106,6 +119,7 @@ if len(pages) == 48:
         content_nodes[0].set("data-fragment-count", str(fragment_count))
         current_prefix = page_prefix(str(entry["section_id"]))
         content_nodes[0].set("data-source-page", current_prefix)
+        remove_running_headers(content_nodes[0])
         for fragment in content_nodes[0].xpath(
             './/*[contains(concat(" ", normalize-space(@class), " "), " adt-source-fragment ")]'
         ):
@@ -125,7 +139,7 @@ if len(pages) == 48:
             raise ValueError(f"Expected one book body in {page_path.name}")
         organize_columns(book_bodies[0], current_prefix)
         for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-            link.set("href", "./content/book-fidelity.css?v=23")
+            link.set("href", "./content/book-fidelity.css?v=24")
         if not document.xpath('//script[contains(@src, "book-layout.js")]'):
             layout_script = html.Element("script")
             layout_script.set("src", "./assets/book-layout.js?v=1")
@@ -204,6 +218,7 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         book_body.append(frame)
 
     organize_columns(book_body, prefix)
+    remove_running_headers(content)
 
     title_meta = document.xpath('//meta[@name="title-id"]')
     index_meta = document.xpath('//meta[@name="page-section-id"]')
@@ -242,7 +257,7 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         main.addnext(reference)
 
     for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-        link.set("href", "./content/book-fidelity.css?v=23")
+        link.set("href", "./content/book-fidelity.css?v=24")
     for script in document.xpath('//script[contains(@src, "offline-preloader.js")]'):
         script.set("src", "./assets/offline-preloader.js?v=3")
     if not document.xpath('//script[contains(@src, "book-layout.js")]'):

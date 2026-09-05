@@ -831,6 +831,33 @@ body.adt-reader-shell > main.adt-reader-main {
 #content[data-source-page="pg047"]::before { background-image: url("../images/page-renders/pg047.png"); }
 #content[data-source-page="pg048"]::before { background-image: url("../images/page-renders/pg048.png"); }
 
+/* The repeated blue running title was intentionally removed. These source
+   canvases are raster references, so a precisely placed white mask clears the
+   title while preserving the green corner motif and all book content below. */
+#content.adt-book-page:is(
+  [data-source-page="pg008"], [data-source-page="pg010"],
+  [data-source-page="pg012"], [data-source-page="pg014"],
+  [data-source-page="pg016"], [data-source-page="pg018"],
+  [data-source-page="pg020"], [data-source-page="pg022"],
+  [data-source-page="pg024"], [data-source-page="pg026"],
+  [data-source-page="pg028"], [data-source-page="pg030"],
+  [data-source-page="pg032"], [data-source-page="pg034"],
+  [data-source-page="pg036"], [data-source-page="pg038"],
+  [data-source-page="pg040"], [data-source-page="pg042"],
+  [data-source-page="pg044"], [data-source-page="pg046"],
+  [data-source-page="pg048"]
+)::after {
+  position: absolute;
+  top: 1.4%;
+  right: 11.5%;
+  z-index: 3;
+  width: 31.5%;
+  height: 2.6%;
+  background: #fff;
+  content: "";
+  pointer-events: none;
+}
+
 /* The source-faithful chapter pages retain their semantic text invisibly for
    read-aloud. Mirror the runtime's current word into a visible karaoke strip
    so the highlight advances in exact step with the narration. */
