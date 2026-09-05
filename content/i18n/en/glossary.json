@@ -1,0 +1,1291 @@
+{
+  "accounting": {
+    "word": "accounting",
+    "definition": "the process of recording, organising, and reporting financial information",
+    "variations": [
+      "accounting",
+      "accounts",
+      "account"
+    ],
+    "emoji": "🧾📘"
+  },
+  "achievement": {
+    "word": "achievement",
+    "definition": "something successfully done, or the act of reaching a goal",
+    "variations": [
+      "achievement",
+      "achievements"
+    ],
+    "emoji": "🏆🎯"
+  },
+  "asset": {
+    "word": "asset",
+    "definition": "something valuable owned by a person or business",
+    "variations": [
+      "asset",
+      "assets"
+    ],
+    "emoji": "🏠💎"
+  },
+  "assets": {
+    "word": "assets",
+    "definition": "Things a person or business owns that have value, such as money, equipment, or property.",
+    "variations": [
+      "asset",
+      "assets"
+    ],
+    "emoji": "🏠💰"
+  },
+  "autonomy": {
+    "word": "autonomy",
+    "definition": "the freedom to make your own decisions and work independently",
+    "variations": [
+      "autonomy"
+    ],
+    "emoji": "🕊️👤"
+  },
+  "budgeting": {
+    "word": "budgeting",
+    "definition": "planning how money will be earned, spent, or saved",
+    "variations": [
+      "budget",
+      "budgets",
+      "budgeting"
+    ],
+    "emoji": "📒💸"
+  },
+  "business": {
+    "word": "business",
+    "definition": "an economic activity of making, buying, or selling goods and services to earn profit and satisfy people’s needs and wants",
+    "variations": [
+      "business",
+      "businesses"
+    ],
+    "emoji": "🏪💼"
+  },
+  "business licence": {
+    "word": "business licence",
+    "definition": "an official document that gives permission for a business to operate",
+    "variations": [
+      "business licence",
+      "business licences"
+    ],
+    "emoji": "📄✅"
+  },
+  "business operation": {
+    "word": "business operation",
+    "definition": "the day-to-day activities of running a business",
+    "variations": [
+      "business operation",
+      "business operations"
+    ],
+    "emoji": "⚙️🏬"
+  },
+  "business opportunity": {
+    "word": "business opportunity",
+    "definition": "a chance to start or improve a business to meet people’s needs or wants",
+    "variations": [
+      "business opportunity",
+      "business opportunities"
+    ],
+    "emoji": "🔍💼"
+  },
+  "business registration": {
+    "word": "business registration",
+    "definition": "the process of officially recording a business with the proper authorities",
+    "variations": [
+      "business registration",
+      "business registrations",
+      "register",
+      "registered",
+      "registering"
+    ],
+    "emoji": "📝🏢"
+  },
+  "business studies": {
+    "word": "business studies",
+    "definition": "a subject that teaches about business, management, entrepreneurship, and economics",
+    "variations": [
+      "Business Studies"
+    ],
+    "emoji": "📘💼"
+  },
+  "capital": {
+    "word": "capital",
+    "definition": "Money or other resources used to start and run a business.",
+    "variations": [
+      "capital",
+      "startup capital",
+      "start-up capital"
+    ],
+    "emoji": "💰🏦"
+  },
+  "characteristics": {
+    "word": "characteristics",
+    "definition": "the qualities or features that describe a person or thing",
+    "variations": [
+      "characteristic",
+      "characteristics"
+    ],
+    "emoji": "📌🧩"
+  },
+  "choice": {
+    "word": "choice",
+    "definition": "the act of selecting one thing instead of another",
+    "variations": [
+      "choice",
+      "choices",
+      "choose",
+      "chooses",
+      "choosing",
+      "chosen"
+    ],
+    "emoji": "✅🤔"
+  },
+  "commitment": {
+    "word": "commitment",
+    "definition": "strong dedication to a task, goal, or business",
+    "variations": [
+      "commitment",
+      "commitments"
+    ],
+    "emoji": "📌💼"
+  },
+  "communication": {
+    "word": "communication",
+    "definition": "the sharing of information, ideas, or feelings with others",
+    "variations": [
+      "communication",
+      "communications"
+    ],
+    "emoji": "💬📢"
+  },
+  "competition": {
+    "word": "competition",
+    "definition": "A situation in which businesses try to do better than others in selling goods or services.",
+    "variations": [
+      "competition",
+      "compete",
+      "competitive"
+    ],
+    "emoji": "🏁⚔️"
+  },
+  "competitor": {
+    "word": "competitor",
+    "definition": "a business that sells the same or similar goods or services as another business",
+    "variations": [
+      "competitor",
+      "competitors"
+    ],
+    "emoji": "🏪⚔️"
+  },
+  "consumer": {
+    "word": "consumer",
+    "definition": "a person who uses or buys goods and services",
+    "variations": [
+      "consumer",
+      "consumers"
+    ],
+    "emoji": "🧑‍🤝‍🧑🛒"
+  },
+  "consumer goods": {
+    "word": "consumer goods",
+    "definition": "goods made for people to use directly, not for making other goods",
+    "variations": [
+      "consumer good",
+      "consumer goods"
+    ],
+    "emoji": "🛍️📺"
+  },
+  "consumption": {
+    "word": "consumption",
+    "definition": "the act of using goods and services to satisfy needs and wants",
+    "variations": [
+      "consumption",
+      "consume",
+      "consumes",
+      "consumed",
+      "consuming"
+    ],
+    "emoji": "🍽️🛍️"
+  },
+  "consumption phase": {
+    "word": "consumption phase",
+    "definition": "the stage where the final user uses the good or service",
+    "variations": [
+      "consumption phase",
+      "consumption phases"
+    ],
+    "emoji": "👕✅"
+  },
+  "contractual hiring": {
+    "word": "contractual hiring",
+    "definition": "employing someone for a specific job or period based on an agreement",
+    "variations": [
+      "contractual hiring"
+    ],
+    "emoji": "📃👨‍💼"
+  },
+  "creativity": {
+    "word": "creativity",
+    "definition": "The ability to think of new and original ideas.",
+    "variations": [
+      "creativity",
+      "creative"
+    ],
+    "emoji": "🎨💭"
+  },
+  "curiosity": {
+    "word": "curiosity",
+    "definition": "a strong desire to know, learn, or understand something",
+    "variations": [
+      "curiosity"
+    ],
+    "emoji": "🧐❓"
+  },
+  "customer": {
+    "word": "customer",
+    "definition": "a person who buys goods or services from a business",
+    "variations": [
+      "customer",
+      "customers"
+    ],
+    "emoji": "🧑🛒"
+  },
+  "customer retention": {
+    "word": "customer retention",
+    "definition": "The ability of a business to keep its customers coming back.",
+    "variations": [
+      "customer retention",
+      "retain customers",
+      "retention"
+    ],
+    "emoji": "🧑‍🤝‍🧑🔁"
+  },
+  "debt": {
+    "word": "debt",
+    "definition": "Money that is owed to another person or organisation.",
+    "variations": [
+      "debt",
+      "debts"
+    ],
+    "emoji": "💸📄"
+  },
+  "decision making": {
+    "word": "decision making",
+    "definition": "the process of choosing the best option from different possible solutions",
+    "variations": [
+      "decision making"
+    ],
+    "emoji": "🤔✅"
+  },
+  "delegation": {
+    "word": "delegation",
+    "definition": "giving some work or responsibility to another person",
+    "variations": [
+      "delegation",
+      "delegate",
+      "delegates",
+      "delegating",
+      "delegated"
+    ],
+    "emoji": "🤝📋"
+  },
+  "demand": {
+    "word": "demand",
+    "definition": "the desire or need for goods and services",
+    "variations": [
+      "demand",
+      "demands",
+      "demanded",
+      "demanding"
+    ],
+    "emoji": "🛒📈"
+  },
+  "demerit goods": {
+    "word": "demerit goods",
+    "definition": "goods that may harm people or society, such as cigarettes and alcohol",
+    "variations": [
+      "demerit good",
+      "demerit goods"
+    ],
+    "emoji": "🚬⚠️"
+  },
+  "digital marketing": {
+    "word": "digital marketing",
+    "definition": "promoting products or services using the internet and digital tools",
+    "variations": [
+      "digital marketing"
+    ],
+    "emoji": "📱💻"
+  },
+  "distribution": {
+    "word": "distribution",
+    "definition": "the process of moving goods and services from where they are made to where they are needed",
+    "variations": [
+      "distribution",
+      "distribute",
+      "distributed",
+      "distributing"
+    ],
+    "emoji": "🚚📦"
+  },
+  "distribution phase": {
+    "word": "distribution phase",
+    "definition": "the stage where goods or services are moved from producers to users or markets",
+    "variations": [
+      "distribution phase",
+      "distribution phases"
+    ],
+    "emoji": "🚛📍"
+  },
+  "durable goods": {
+    "word": "durable goods",
+    "definition": "goods that last for a long time before wearing out",
+    "variations": [
+      "durable good",
+      "durable goods"
+    ],
+    "emoji": "🚗🏠"
+  },
+  "e-business": {
+    "word": "e-business",
+    "definition": "business activities of buying, selling, or marketing using the internet and technology",
+    "variations": [
+      "e-business",
+      "e-businesses"
+    ],
+    "emoji": "🌐🛒"
+  },
+  "e-commerce": {
+    "word": "e-commerce",
+    "definition": "buying and selling goods or services through the internet",
+    "variations": [
+      "e-commerce"
+    ],
+    "emoji": "💻🛒"
+  },
+  "economic activity": {
+    "word": "economic activity",
+    "definition": "an activity people do to produce, buy, sell, or use goods and services",
+    "variations": [
+      "economic activity",
+      "economic activities"
+    ],
+    "emoji": "📈💰"
+  },
+  "economic growth": {
+    "word": "economic growth",
+    "definition": "An increase in the production of goods and services in a country over time.",
+    "variations": [
+      "economic growth"
+    ],
+    "emoji": "📈🌍"
+  },
+  "economics": {
+    "word": "economics",
+    "definition": "the study of how people use limited resources to satisfy needs and wants",
+    "variations": [
+      "economics"
+    ],
+    "emoji": "📘💹"
+  },
+  "economies of scale": {
+    "word": "economies of scale",
+    "definition": "cost advantages a business gets when it produces or operates on a larger scale",
+    "variations": [
+      "economies of scale"
+    ],
+    "emoji": "🏭📉"
+  },
+  "employee": {
+    "word": "employee",
+    "definition": "a person who works for another person or business for pay",
+    "variations": [
+      "employee",
+      "employees"
+    ],
+    "emoji": "👷💼"
+  },
+  "employment": {
+    "word": "employment",
+    "definition": "paid work that people do in a business or organisation",
+    "variations": [
+      "employment",
+      "employ",
+      "employed",
+      "employing"
+    ],
+    "emoji": "💼👷"
+  },
+  "enterprise": {
+    "word": "enterprise",
+    "definition": "a business or project that is created to provide goods or services",
+    "variations": [
+      "enterprise",
+      "enterprises"
+    ],
+    "emoji": "🏭💼"
+  },
+  "entrepreneur": {
+    "word": "entrepreneur",
+    "definition": "A person who starts, manages, and takes risks in a business to make it succeed.",
+    "variations": [
+      "entrepreneur",
+      "entrepreneurs",
+      "entrepreneurial"
+    ],
+    "emoji": "💼🚀"
+  },
+  "entrepreneurial skills": {
+    "word": "entrepreneurial skills",
+    "definition": "abilities that help a person identify opportunities and successfully run a business",
+    "variations": [
+      "entrepreneurial skill",
+      "entrepreneurial skills"
+    ],
+    "emoji": "🛠️💼"
+  },
+  "entrepreneurship": {
+    "word": "entrepreneurship",
+    "definition": "The process of starting and running a business by organising resources and taking risks to earn income.",
+    "variations": [
+      "entrepreneurship",
+      "entrepreneurial"
+    ],
+    "emoji": "💡🏪"
+  },
+  "exchange": {
+    "word": "exchange",
+    "definition": "the buying and selling of goods and services between people or groups, usually using money or another payment method",
+    "variations": [
+      "exchange",
+      "exchanges",
+      "exchanged",
+      "exchanging"
+    ],
+    "emoji": "💱🤝"
+  },
+  "exchange phase": {
+    "word": "exchange phase",
+    "definition": "the stage where goods or services are bought and sold",
+    "variations": [
+      "exchange phase",
+      "exchange phases"
+    ],
+    "emoji": "💵🤝"
+  },
+  "expansion": {
+    "word": "expansion",
+    "definition": "the act of making a business larger or increasing its activities",
+    "variations": [
+      "expansion",
+      "expand",
+      "expands",
+      "expanded",
+      "expanding"
+    ],
+    "emoji": "📈🏢"
+  },
+  "expert": {
+    "word": "expert",
+    "definition": "a person who has a lot of skill or knowledge in a certain area",
+    "variations": [
+      "expert",
+      "experts"
+    ],
+    "emoji": "🧠👩‍💼"
+  },
+  "factors of production": {
+    "word": "factors of production",
+    "definition": "the main resources needed to produce goods and services: land, labour, capital, and entrepreneurship",
+    "variations": [
+      "factor of production",
+      "factors of production"
+    ],
+    "emoji": "🏭🌱👷"
+  },
+  "finance": {
+    "word": "finance",
+    "definition": "the management of money in a person, business, or organisation",
+    "variations": [
+      "finance",
+      "finances",
+      "financial"
+    ],
+    "emoji": "💰📊"
+  },
+  "financial literacy": {
+    "word": "financial literacy",
+    "definition": "the ability to understand and use money wisely",
+    "variations": [
+      "financial literacy"
+    ],
+    "emoji": "💵🧠"
+  },
+  "financial management": {
+    "word": "financial management",
+    "definition": "the skill of planning, controlling, and using money properly in a business",
+    "variations": [
+      "financial management"
+    ],
+    "emoji": "💰📊"
+  },
+  "financial report": {
+    "word": "financial report",
+    "definition": "a document that shows the financial condition or results of a business",
+    "variations": [
+      "financial report",
+      "financial reports"
+    ],
+    "emoji": "📊💰"
+  },
+  "finished products": {
+    "word": "finished products",
+    "definition": "goods that have been completely made and are ready to be used or sold",
+    "variations": [
+      "finished product",
+      "finished products"
+    ],
+    "emoji": "👕📦"
+  },
+  "flexibility": {
+    "word": "flexibility",
+    "definition": "the willingness and ability to change and adjust when needed",
+    "variations": [
+      "flexibility"
+    ],
+    "emoji": "🔄🌿"
+  },
+  "goods": {
+    "word": "goods",
+    "definition": "physical things that people make, buy, or use to satisfy needs and wants",
+    "variations": [
+      "good",
+      "goods"
+    ],
+    "emoji": "📦🛍️"
+  },
+  "incentive": {
+    "word": "incentive",
+    "definition": "Something that encourages a person to take action or work harder.",
+    "variations": [
+      "incentive",
+      "incentives"
+    ],
+    "emoji": "🎁🔥"
+  },
+  "industry": {
+    "word": "industry",
+    "definition": "all businesses that produce the same or similar products",
+    "variations": [
+      "industry",
+      "industries"
+    ],
+    "emoji": "🏭📦"
+  },
+  "information technology": {
+    "word": "information technology",
+    "definition": "the use of computers and digital systems to store, process, and share information",
+    "variations": [
+      "information technology",
+      "IT",
+      "ICT"
+    ],
+    "emoji": "💻🌐"
+  },
+  "innovation": {
+    "word": "innovation",
+    "definition": "The act of creating and using new ideas, methods, or products.",
+    "variations": [
+      "innovation",
+      "innovations",
+      "innovative",
+      "innovativeness"
+    ],
+    "emoji": "💡🆕"
+  },
+  "innovative": {
+    "word": "innovative",
+    "definition": "having new and useful ideas or methods",
+    "variations": [
+      "innovative"
+    ],
+    "emoji": "✨💡"
+  },
+  "innovative activities": {
+    "word": "innovative activities",
+    "definition": "new and creative actions that improve goods, services, or the way work is done",
+    "variations": [
+      "innovative activity",
+      "innovative activities",
+      "innovation",
+      "innovations",
+      "innovative"
+    ],
+    "emoji": "💡🚀"
+  },
+  "innovativeness": {
+    "word": "innovativeness",
+    "definition": "the ability to come up with new or improved ideas and put them into use",
+    "variations": [
+      "innovativeness"
+    ],
+    "emoji": "🚀✨"
+  },
+  "insurance": {
+    "word": "insurance",
+    "definition": "an agreement that gives protection against loss or damage after payment is made",
+    "variations": [
+      "insurance",
+      "insure",
+      "insured",
+      "insuring"
+    ],
+    "emoji": "🛡️🏢"
+  },
+  "intangible": {
+    "word": "intangible",
+    "definition": "not physical and cannot be touched",
+    "variations": [
+      "intangible",
+      "intangibles"
+    ],
+    "emoji": "🌫️🧠"
+  },
+  "interpersonal": {
+    "word": "interpersonal",
+    "definition": "relating to communication or relationships between people",
+    "variations": [
+      "interpersonal"
+    ],
+    "emoji": "🗣️🤝"
+  },
+  "intrapersonal": {
+    "word": "intrapersonal",
+    "definition": "relating to thoughts, feelings, or communication within oneself",
+    "variations": [
+      "intrapersonal"
+    ],
+    "emoji": "🧠👤"
+  },
+  "intrapreneur": {
+    "word": "intrapreneur",
+    "definition": "an employee who uses creative and entrepreneurial ideas to improve or develop projects within an organization",
+    "variations": [
+      "intrapreneur",
+      "intrapreneurs"
+    ],
+    "emoji": "👩‍💼🏢✨"
+  },
+  "intrapreneurship": {
+    "word": "intrapreneurship",
+    "definition": "a way of encouraging employees in an organization to think and act like entrepreneurs while working inside the organization",
+    "variations": [
+      "intrapreneurship"
+    ],
+    "emoji": "🏢💡"
+  },
+  "invention": {
+    "word": "invention",
+    "definition": "something new that has been created for the first time",
+    "variations": [
+      "invention",
+      "inventions"
+    ],
+    "emoji": "🧪📱"
+  },
+  "inventive": {
+    "word": "inventive",
+    "definition": "good at creating new ideas or things",
+    "variations": [
+      "inventive"
+    ],
+    "emoji": "💡🛠️"
+  },
+  "investment": {
+    "word": "investment",
+    "definition": "money put into a business or activity with the hope of getting profit later",
+    "variations": [
+      "investment",
+      "investments",
+      "invest",
+      "investing"
+    ],
+    "emoji": "💵📈"
+  },
+  "labour": {
+    "word": "labour",
+    "definition": "human effort, skills, and work used to produce goods and services",
+    "variations": [
+      "labour"
+    ],
+    "emoji": "👷💪"
+  },
+  "land": {
+    "word": "land",
+    "definition": "all natural resources used in production, such as soil, water, forests, and minerals",
+    "variations": [
+      "land",
+      "lands"
+    ],
+    "emoji": "🌍🌳"
+  },
+  "leadership": {
+    "word": "leadership",
+    "definition": "The ability to guide, influence, and direct people toward achieving goals.",
+    "variations": [
+      "leadership",
+      "leader",
+      "leaders"
+    ],
+    "emoji": "👑🧭"
+  },
+  "liability": {
+    "word": "liability",
+    "definition": "A legal or financial responsibility, especially money that must be paid to others.",
+    "variations": [
+      "liability",
+      "liabilities",
+      "unlimited liability"
+    ],
+    "emoji": "⚖️💳"
+  },
+  "licence": {
+    "word": "licence",
+    "definition": "An official document that gives permission to operate a business legally.",
+    "variations": [
+      "licence",
+      "licences"
+    ],
+    "emoji": "📜✅"
+  },
+  "loss": {
+    "word": "loss",
+    "definition": "Money a business loses when its costs are more than its earnings.",
+    "variations": [
+      "loss",
+      "losses"
+    ],
+    "emoji": "📉💸"
+  },
+  "management": {
+    "word": "management",
+    "definition": "the process of planning, organising, and controlling work and resources",
+    "variations": [
+      "management",
+      "manage",
+      "manages",
+      "managed",
+      "managing"
+    ],
+    "emoji": "📋👔"
+  },
+  "marketing": {
+    "word": "marketing",
+    "definition": "the activities used to promote, price, and sell products or services",
+    "variations": [
+      "marketing",
+      "market",
+      "markets"
+    ],
+    "emoji": "📣🛍️"
+  },
+  "merit goods": {
+    "word": "merit goods",
+    "definition": "goods or services that are good for people and society, such as education and health care",
+    "variations": [
+      "merit good",
+      "merit goods"
+    ],
+    "emoji": "🏥📚"
+  },
+  "microfinance": {
+    "word": "microfinance",
+    "definition": "Small financial services, such as loans, given to people or small businesses that may not use big banks.",
+    "variations": [
+      "microfinance",
+      "microfinance institutions"
+    ],
+    "emoji": "🏦🤲"
+  },
+  "microfinancing": {
+    "word": "microfinancing",
+    "definition": "providing small loans or financial help to support small businesses",
+    "variations": [
+      "microfinancing"
+    ],
+    "emoji": "💵🤲"
+  },
+  "needs": {
+    "word": "needs",
+    "definition": "things a person must have to live and survive",
+    "variations": [
+      "need",
+      "needs",
+      "needed"
+    ],
+    "emoji": "💧🍞"
+  },
+  "negotiation": {
+    "word": "negotiation",
+    "definition": "A discussion between people to reach an agreement that is acceptable to both sides.",
+    "variations": [
+      "negotiation",
+      "negotiations",
+      "negotiate",
+      "negotiating"
+    ],
+    "emoji": "🤝💬"
+  },
+  "networking": {
+    "word": "networking",
+    "definition": "Building and using relationships with other people to share information, find opportunities, and support business growth.",
+    "variations": [
+      "networking",
+      "network",
+      "networks"
+    ],
+    "emoji": "🤝🌐"
+  },
+  "non-profit": {
+    "word": "non-profit",
+    "definition": "an organization or activity that is meant to help people or a cause rather than make money for owners",
+    "variations": [
+      "non-profit",
+      "non-profits"
+    ],
+    "emoji": "❤️🤲"
+  },
+  "opportunity cost": {
+    "word": "opportunity cost",
+    "definition": "the value of the next best choice given up when one choice is made",
+    "variations": [
+      "opportunity cost",
+      "opportunity costs"
+    ],
+    "emoji": "↩️💸"
+  },
+  "optimism": {
+    "word": "optimism",
+    "definition": "the habit of expecting good results and staying positive",
+    "variations": [
+      "optimism"
+    ],
+    "emoji": "☀️😊"
+  },
+  "organisation": {
+    "word": "organisation",
+    "definition": "a group of people working together for a common purpose, such as a company, school, or charity",
+    "variations": [
+      "organisation",
+      "organisations"
+    ],
+    "emoji": "🏢👥"
+  },
+  "ownership": {
+    "word": "ownership",
+    "definition": "the legal right to have or control something",
+    "variations": [
+      "ownership",
+      "owner",
+      "owners"
+    ],
+    "emoji": "🔑📄"
+  },
+  "passion": {
+    "word": "passion",
+    "definition": "a strong love or enthusiasm for something",
+    "variations": [
+      "passion",
+      "passions"
+    ],
+    "emoji": "🔥❤️"
+  },
+  "perishable goods": {
+    "word": "perishable goods",
+    "definition": "goods that spoil or go bad after a short time",
+    "variations": [
+      "perishable good",
+      "perishable goods"
+    ],
+    "emoji": "🍎🥛"
+  },
+  "permit": {
+    "word": "permit",
+    "definition": "An official approval that allows a person or business to do something legally.",
+    "variations": [
+      "permit",
+      "permits"
+    ],
+    "emoji": "📝✔️"
+  },
+  "perseverance": {
+    "word": "perseverance",
+    "definition": "The quality of continuing to work hard even when things are difficult.",
+    "variations": [
+      "perseverance",
+      "persevere",
+      "persevering"
+    ],
+    "emoji": "💪⏳"
+  },
+  "planning": {
+    "word": "planning",
+    "definition": "deciding in advance what should be done and how to do it",
+    "variations": [
+      "planning",
+      "plan",
+      "plans",
+      "planned"
+    ],
+    "emoji": "📝🎯"
+  },
+  "premium": {
+    "word": "premium",
+    "definition": "the amount of money paid to an insurance company for protection",
+    "variations": [
+      "premium",
+      "premiums"
+    ],
+    "emoji": "💵🛡️"
+  },
+  "pricing": {
+    "word": "pricing",
+    "definition": "the process of deciding how much money should be charged for goods or services",
+    "variations": [
+      "pricing",
+      "price",
+      "prices",
+      "priced"
+    ],
+    "emoji": "🏷️💲"
+  },
+  "proactiveness": {
+    "word": "proactiveness",
+    "definition": "the habit of taking action early instead of waiting for things to happen",
+    "variations": [
+      "proactiveness"
+    ],
+    "emoji": "⚡🚶"
+  },
+  "producer goods": {
+    "word": "producer goods",
+    "definition": "goods used to make other goods or help in production",
+    "variations": [
+      "producer good",
+      "producer goods"
+    ],
+    "emoji": "🏭⚙️"
+  },
+  "product": {
+    "word": "product",
+    "definition": "a good or service that is made or offered for sale",
+    "variations": [
+      "product",
+      "products"
+    ],
+    "emoji": "📦🛒"
+  },
+  "production": {
+    "word": "production",
+    "definition": "the process of making goods or creating services to satisfy human needs and wants",
+    "variations": [
+      "production",
+      "produce",
+      "produced",
+      "producing"
+    ],
+    "emoji": "🏭⚙️"
+  },
+  "production phase": {
+    "word": "production phase",
+    "definition": "the stage where goods are made or services are created",
+    "variations": [
+      "production phase",
+      "production phases"
+    ],
+    "emoji": "🏭🧰"
+  },
+  "profit": {
+    "word": "profit",
+    "definition": "The money a business has left after paying all its costs.",
+    "variations": [
+      "profit",
+      "profits",
+      "profitable"
+    ],
+    "emoji": "📈💵"
+  },
+  "promotion": {
+    "word": "promotion",
+    "definition": "activities used to inform and persuade people to buy a product",
+    "variations": [
+      "promotion",
+      "promotions",
+      "promote",
+      "promoting"
+    ],
+    "emoji": "📣✨"
+  },
+  "raw materials": {
+    "word": "raw materials",
+    "definition": "basic materials used to make other products",
+    "variations": [
+      "raw material",
+      "raw materials"
+    ],
+    "emoji": "🧵🪵"
+  },
+  "register": {
+    "word": "register",
+    "definition": "To officially record a business or name with the proper authority.",
+    "variations": [
+      "register",
+      "registered",
+      "registration",
+      "registering"
+    ],
+    "emoji": "📋🏛️"
+  },
+  "resources": {
+    "word": "resources",
+    "definition": "useful things such as money, materials, time, and labour that can be used to produce goods and services",
+    "variations": [
+      "resource",
+      "resources"
+    ],
+    "emoji": "🧰🌍"
+  },
+  "retailer": {
+    "word": "retailer",
+    "definition": "a person or business that sells goods directly to final customers",
+    "variations": [
+      "retailer",
+      "retailers"
+    ],
+    "emoji": "🏬🛍️"
+  },
+  "risk": {
+    "word": "risk",
+    "definition": "the possibility of loss, failure, or danger",
+    "variations": [
+      "risk",
+      "risks"
+    ],
+    "emoji": "⚠️🎲"
+  },
+  "risk management": {
+    "word": "risk management",
+    "definition": "the process of identifying possible problems and finding ways to reduce or handle them",
+    "variations": [
+      "risk management"
+    ],
+    "emoji": "⚠️🛡️"
+  },
+  "risk taking": {
+    "word": "risk taking",
+    "definition": "The willingness to try something that may fail or cause loss in order to achieve success.",
+    "variations": [
+      "risk taking",
+      "risk-taking",
+      "take risks",
+      "taking risks"
+    ],
+    "emoji": "⚠️🎯"
+  },
+  "risk-taking": {
+    "word": "risk-taking",
+    "definition": "the willingness to do something that may fail or cause loss in order to achieve success",
+    "variations": [
+      "risk-taking"
+    ],
+    "emoji": "🎲🚀"
+  },
+  "scarcity": {
+    "word": "scarcity",
+    "definition": "a situation where available resources are limited and cannot satisfy all needs and wants",
+    "variations": [
+      "scarcity",
+      "scarce"
+    ],
+    "emoji": "⚠️📉"
+  },
+  "self-discipline": {
+    "word": "self-discipline",
+    "definition": "the ability to control yourself and stay focused on what is right or necessary",
+    "variations": [
+      "self-discipline"
+    ],
+    "emoji": "⏱️💪"
+  },
+  "self-motivation": {
+    "word": "self-motivation",
+    "definition": "the ability to push yourself to act and keep working toward your goals",
+    "variations": [
+      "self-motivation"
+    ],
+    "emoji": "🔋🎯"
+  },
+  "services": {
+    "word": "services",
+    "definition": "useful actions or work done for people to satisfy their needs and wants",
+    "variations": [
+      "service",
+      "services"
+    ],
+    "emoji": "🛎️🤝"
+  },
+  "small and medium enterprises": {
+    "word": "small and medium enterprises",
+    "definition": "businesses that are not very large and usually have fewer workers and less capital than big companies",
+    "variations": [
+      "small and medium enterprise",
+      "small and medium enterprises",
+      "SME",
+      "SMEs"
+    ],
+    "emoji": "🏪📊"
+  },
+  "social entrepreneurship": {
+    "word": "social entrepreneurship",
+    "definition": "entrepreneurship that aims to solve social problems while also creating useful products or services",
+    "variations": [
+      "social entrepreneurship"
+    ],
+    "emoji": "🤝🌍💡"
+  },
+  "social media": {
+    "word": "social media",
+    "definition": "online platforms where people create, share, and exchange information and ideas",
+    "variations": [
+      "social media"
+    ],
+    "emoji": "📱🌐"
+  },
+  "sole proprietor": {
+    "word": "sole proprietor",
+    "definition": "The single owner of a sole proprietorship business.",
+    "variations": [
+      "sole proprietor",
+      "sole proprietors"
+    ],
+    "emoji": "👤💼"
+  },
+  "sole proprietorship": {
+    "word": "sole proprietorship",
+    "definition": "A business owned, managed, and controlled by one person.",
+    "variations": [
+      "sole proprietorship",
+      "sole proprietorships"
+    ],
+    "emoji": "👤🏪"
+  },
+  "staffing": {
+    "word": "staffing",
+    "definition": "the process of finding and placing the right workers in the right jobs",
+    "variations": [
+      "staffing",
+      "staff"
+    ],
+    "emoji": "👥💼"
+  },
+  "start-up capital": {
+    "word": "start-up capital",
+    "definition": "the money needed to begin a business",
+    "variations": [
+      "start-up capital"
+    ],
+    "emoji": "💸🚀"
+  },
+  "succession planning": {
+    "word": "succession planning",
+    "definition": "preparing in advance for who will take over a business in the future",
+    "variations": [
+      "succession plan",
+      "succession plans",
+      "succession planning"
+    ],
+    "emoji": "🔄👨‍👩‍👧‍👦"
+  },
+  "theory": {
+    "word": "theory",
+    "definition": "a set of ideas that explains how or why something happens",
+    "variations": [
+      "theory",
+      "theories"
+    ],
+    "emoji": "📘🧠"
+  },
+  "uncertainty": {
+    "word": "uncertainty",
+    "definition": "a state in which the future is not known or predictable",
+    "variations": [
+      "uncertainty",
+      "uncertainties"
+    ],
+    "emoji": "❔🌫️"
+  },
+  "unemployment": {
+    "word": "unemployment",
+    "definition": "the condition of not having a job while being able and willing to work",
+    "variations": [
+      "unemployment",
+      "unemployed"
+    ],
+    "emoji": "📉🙍"
+  },
+  "unlimited liability": {
+    "word": "unlimited liability",
+    "definition": "a situation where the owner can lose both business property and personal property to pay business debts",
+    "variations": [
+      "unlimited liability"
+    ],
+    "emoji": "⚠️💸"
+  },
+  "vendor": {
+    "word": "vendor",
+    "definition": "a person or business that offers products for sale",
+    "variations": [
+      "vendor",
+      "vendors"
+    ],
+    "emoji": "🏪💰"
+  },
+  "vision": {
+    "word": "vision",
+    "definition": "a clear idea of what someone wants to achieve in the future",
+    "variations": [
+      "vision",
+      "visions"
+    ],
+    "emoji": "👀🎯"
+  },
+  "wants": {
+    "word": "wants",
+    "definition": "things a person would like to have but can live without",
+    "variations": [
+      "want",
+      "wants",
+      "wanted"
+    ],
+    "emoji": "📺✨"
+  },
+  "well-being": {
+    "word": "well-being",
+    "definition": "a healthy and comfortable state of body and mind",
+    "variations": [
+      "well-being"
+    ],
+    "emoji": "😊💚"
+  },
+  "wholesaler": {
+    "word": "wholesaler",
+    "definition": "a person or business that buys goods in large amounts and sells them to retailers or other businesses",
+    "variations": [
+      "wholesaler",
+      "wholesalers"
+    ],
+    "emoji": "📦🏪"
+  }
+}
