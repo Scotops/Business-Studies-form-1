@@ -191,6 +191,18 @@ body.adt-reader-shell > main.adt-reader-main {
   min-height: 86rem !important;
 }
 
+/* Page vi also uses an anchored ornamental footer. Keep it at the bottom of
+   the original page canvas, safely below the publisher credit. */
+.adt-book-page[data-source-page="pg006"] .adt-source-fragment > section {
+  min-height: 87.5rem !important;
+}
+
+@media (max-width: 1024px) {
+  .adt-book-page[data-source-page="pg006"] .adt-source-fragment > section {
+    min-height: 77.5rem !important;
+  }
+}
+
 .adt-book-page p:not(.text-center):not(.text-right),
 .adt-book-page li {
   text-align: justify !important;
@@ -318,6 +330,10 @@ body.adt-reader-shell > main.adt-reader-main {
 
   .adt-book-page[data-source-page="pg002"] .adt-source-fragment > section {
     min-height: 67.5rem !important;
+  }
+
+  .adt-book-page[data-source-page="pg006"] .adt-source-fragment > section {
+    min-height: 61.25rem !important;
   }
 
   .adt-activity-icon--pg019 {
