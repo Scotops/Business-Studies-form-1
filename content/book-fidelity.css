@@ -42,6 +42,11 @@ body.adt-reader-shell > main.adt-reader-main {
   pointer-events: none;
 }
 
+/* The Table of Contents already supplies its own source-matched green rule. */
+.adt-book-page[data-source-page="pg003"]::before {
+  display: none;
+}
+
 .adt-book-page__body {
   position: relative;
   z-index: 1;
