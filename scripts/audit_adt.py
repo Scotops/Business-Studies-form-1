@@ -140,6 +140,7 @@ def main() -> int:
     inline_mismatches: list[dict[str, str]] = []
     ids_by_page: dict[int, set[str]] = defaultdict(set)
     page_number_mismatches: list[dict[str, object]] = []
+    duplicate_data_ids: list[dict[str, object]] = []
     missing_local_resources: set[str] = set()
     roman_pages = {2: "ii", 3: "iii", 4: "iv", 5: "v", 6: "vi"}
 
@@ -201,6 +202,11 @@ def main() -> int:
                 missing_audio_ids.add(data_id)
             elif not (audio_dir / audios[data_id]).is_file():
                 missing_audio_files.add(audios[data_id])
+        duplicates = sorted(
+            data_id for data_id, count in Counter(doc.data_ids).items() if count > 1
+        )
+        if duplicates:
+            duplicate_data_ids.append({"href": entry["href"], "ids": duplicates})
         for data_id, parts in doc.inline_text.items():
             if data_id not in texts:
                 continue
@@ -249,8 +255,13 @@ def main() -> int:
                 )
 
     pdf_coverage: list[dict[str, object]] = []
+    source_page_count_mismatches: list[dict[str, int]] = []
     if args.pdf:
         with pdfplumber.open(args.pdf) as pdf:
+            if len(pdf.pages) != len(pages):
+                source_page_count_mismatches.append(
+                    {"source_pdf_pages": len(pdf.pages), "reader_pages": len(pages)}
+                )
             for page_number, page in enumerate(pdf.pages, start=1):
                 source_tokens = set(tokens(page.extract_text(layout=True) or ""))
                 adt_tokens: set[str] = set()
@@ -311,6 +322,8 @@ def main() -> int:
             "missing_html": missing_html,
             "section_meta_mismatches": section_mismatches,
             "page_number_mismatches": page_number_mismatches,
+            "source_page_count_mismatches": source_page_count_mismatches,
+            "duplicate_data_ids": duplicate_data_ids,
             "missing_local_resources": sorted(missing_local_resources),
             "offline_preloader_mismatches": offline_preloader_mismatches,
             "html_ids_missing_text": sorted(missing_text_ids),
