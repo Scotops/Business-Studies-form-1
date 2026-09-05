@@ -830,3 +830,115 @@ body.adt-reader-shell > main.adt-reader-main {
 #content[data-source-page="pg046"]::before { background-image: url("../images/page-renders/pg046.png"); }
 #content[data-source-page="pg047"]::before { background-image: url("../images/page-renders/pg047.png"); }
 #content[data-source-page="pg048"]::before { background-image: url("../images/page-renders/pg048.png"); }
+
+/* The source-faithful chapter pages retain their semantic text invisibly for
+   read-aloud. Mirror the runtime's current word into a visible karaoke strip
+   so the highlight advances in exact step with the narration. */
+.adt-word-highlight-overlay {
+  position: fixed;
+  bottom: 8rem;
+  left: 50%;
+  z-index: 59;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  width: min(46rem, calc(100vw - 1.5rem));
+  padding: 0.7rem 0.85rem;
+  border: 3px solid #f97316;
+  border-radius: 1rem;
+  background: rgba(255, 254, 244, 0.98);
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.28);
+  color: #1f2937;
+  transform: translateX(-50%);
+}
+
+.adt-word-highlight-overlay[hidden] {
+  display: none !important;
+}
+
+.adt-word-highlight-overlay__label {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  padding: 0.42rem 0.72rem;
+  border: 2px solid #047857;
+  border-radius: 9999px;
+  background: #d1fae5;
+  color: #065f46;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.adt-word-highlight-overlay__label::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.42rem;
+  border-radius: 50%;
+  background: #f97316;
+  content: "";
+}
+
+.adt-word-highlight-overlay__phrase {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem 0.38rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 2.25vw, 1.35rem);
+  line-height: 1.35;
+  text-align: center;
+}
+
+.adt-word-highlight-overlay__word {
+  color: #475569;
+}
+
+.adt-word-highlight-overlay__word--active {
+  display: inline-block;
+  padding: 0.08rem 0.34rem;
+  border: 2px solid #111827;
+  border-radius: 0.38rem;
+  background: #fde047;
+  box-shadow: 0 2px 0 #ca8a04;
+  color: #000;
+  font-weight: 800;
+}
+
+.adt-word-highlight-overlay--block .adt-word-highlight-overlay__word--active {
+  border-color: #2563eb;
+  background: #dbeafe;
+  box-shadow: none;
+}
+
+@media (max-width: 640px) {
+  .adt-word-highlight-overlay {
+    bottom: 7rem;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    width: calc(100vw - 0.8rem);
+    padding: 0.58rem 0.65rem;
+    border-width: 2px;
+    border-radius: 0.8rem;
+  }
+
+  .adt-word-highlight-overlay__label {
+    justify-self: center;
+    padding: 0.35rem 0.58rem;
+    font-size: 0.68rem;
+  }
+
+  .adt-word-highlight-overlay__phrase {
+    font-size: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .adt-word-highlight-overlay,
+  .adt-word-highlight-overlay * {
+    transition: none !important;
+  }
+}
