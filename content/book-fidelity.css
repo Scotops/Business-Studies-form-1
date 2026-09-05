@@ -99,6 +99,33 @@ body.adt-reader-shell > main.adt-reader-main {
   gap: 1.25rem;
 }
 
+/* Printed page 3 is a two-column spread: its main text spans both source
+   columns, while Exercise 1.1 begins beneath the text in the right column. */
+.adt-book-page[data-source-page="pg009"] .adt-book-page__body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  column-gap: 1.25rem;
+}
+
+.adt-book-page[data-source-page="pg009"] > .adt-book-page__body > .adt-source-fragment-frame:first-child {
+  grid-row: 1;
+  grid-column: 1 / -1;
+}
+
+.adt-book-page[data-source-page="pg009"] > .adt-book-page__body > .adt-source-fragment-frame:nth-child(2) {
+  z-index: 2;
+  grid-row: 1;
+  grid-column: 2;
+  width: 88%;
+  margin-top: 34.5rem !important;
+}
+
+.adt-book-page[data-source-page="pg009"] .adt-source-fragment {
+  --adt-fragment-scale: 1;
+  width: 100%;
+}
+
 .adt-book-column {
   display: flex;
   min-width: 0;
@@ -321,6 +348,11 @@ body.adt-reader-shell > main.adt-reader-main {
 
   .adt-source-fragment-frame + .adt-source-fragment-frame {
     margin-top: 0.45rem;
+  }
+
+  .adt-book-page[data-source-page="pg009"] > .adt-book-page__body > .adt-source-fragment-frame:nth-child(2) {
+    width: 100%;
+    margin-top: 0.45rem !important;
   }
 
   .adt-book-page[data-fragment-count] .adt-source-fragment {
