@@ -858,6 +858,34 @@ body.adt-reader-shell > main.adt-reader-main {
   pointer-events: none;
 }
 
+/* The repeated Student's Book Form One badge was intentionally removed from
+   the lower-left corner of every printed content page. The source canvases are
+   raster references, so this white mask clears only that badge and leaves the
+   centered printed page number visible. */
+#content.adt-book-page:is(
+  [data-source-page="pg007"], [data-source-page="pg009"],
+  [data-source-page="pg011"], [data-source-page="pg013"],
+  [data-source-page="pg015"], [data-source-page="pg017"],
+  [data-source-page="pg019"], [data-source-page="pg021"],
+  [data-source-page="pg023"], [data-source-page="pg025"],
+  [data-source-page="pg027"], [data-source-page="pg029"],
+  [data-source-page="pg031"], [data-source-page="pg033"],
+  [data-source-page="pg035"], [data-source-page="pg037"],
+  [data-source-page="pg039"], [data-source-page="pg041"],
+  [data-source-page="pg043"], [data-source-page="pg045"],
+  [data-source-page="pg047"]
+)::after {
+  position: absolute;
+  left: 6.4%;
+  bottom: 2.7%;
+  z-index: 3;
+  width: 31%;
+  height: 3.35%;
+  background: #fff;
+  content: "";
+  pointer-events: none;
+}
+
 /* Chapter pages retain their semantic text invisibly for read-aloud. The
    active runtime word is mirrored onto its exact source-PDF word box so the
    highlight looks the same as it does on the live-text front-matter pages. */

@@ -220,10 +220,8 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     args = parser.parse_args()
     result = build(args.pdf)
-    args.output.write_text(
-        json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n",
-        encoding="utf-8",
-    )
+    serialized = json.dumps(result, ensure_ascii=False, separators=(",", ":")) + "\n"
+    args.output.write_bytes(serialized.encode("utf-8"))
     print(f"Wrote {args.output}")
 
 
