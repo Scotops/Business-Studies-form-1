@@ -241,6 +241,23 @@ body.adt-reader-shell > main.adt-reader-main {
   height: auto;
 }
 
+/* Keep printed page-number badges, but remove the decorative line and wave
+   artwork that previously ran behind them at the bottom of book pages. */
+.adt-book-page [class*="repeating-linear-gradient"],
+.adt-book-page [style*="repeating-linear-gradient"] {
+  background-image: none !important;
+}
+
+.adt-book-page[data-source-page="pg002"] section > div[class*="bottom-0"] > svg,
+.adt-book-page[data-source-page="pg006"] section > div[class*="bottom-0"] > svg,
+.adt-book-page[data-source-page="pg046"] section > div[class*="bottom-0"] > svg,
+.adt-book-page[data-source-page="pg004"] section > div[class*="bottom-0"] .space-y-1,
+.adt-book-page[data-source-page="pg048"] section > div[class*="bottom-0"] .space-y-1,
+.adt-book-page[data-source-page="pg047"] section > div[class*="bottom-0"] .h-px.bg-green-200,
+.adt-book-page section > div[class*="bottom-0"] > div[class*="border-t"] {
+  display: none !important;
+}
+
 .adt-activity-icon--pg019 {
   left: 210px;
   width: 66px;

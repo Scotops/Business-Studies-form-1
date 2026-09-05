@@ -125,7 +125,7 @@ if len(pages) == 48:
             raise ValueError(f"Expected one book body in {page_path.name}")
         organize_columns(book_bodies[0], current_prefix)
         for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-            link.set("href", "./content/book-fidelity.css?v=17")
+            link.set("href", "./content/book-fidelity.css?v=19")
         if not document.xpath('//script[contains(@src, "book-layout.js")]'):
             layout_script = html.Element("script")
             layout_script.set("src", "./assets/book-layout.js?v=1")
@@ -248,7 +248,7 @@ for reader_index, (prefix, entries) in enumerate(groups.items(), start=1):
         main.addnext(reference)
 
     for link in document.xpath('//link[contains(@href, "book-fidelity.css")]'):
-        link.set("href", "./content/book-fidelity.css?v=17")
+        link.set("href", "./content/book-fidelity.css?v=19")
     for script in document.xpath('//script[contains(@src, "offline-preloader.js")]'):
         script.set("src", "./assets/offline-preloader.js?v=3")
     if not document.xpath('//script[contains(@src, "book-layout.js")]'):
